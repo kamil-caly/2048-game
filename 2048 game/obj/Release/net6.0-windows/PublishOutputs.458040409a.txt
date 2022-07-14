@@ -1,0 +1,5 @@
+D:\VS 2022_codes\2048 game\2048 game\bin\publish\2048 game.exe
+D:\VS 2022_codes\2048 game\2048 game\bin\publish\2048 game.dll
+D:\VS 2022_codes\2048 game\2048 game\bin\publish\2048 game.deps.json
+D:\VS 2022_codes\2048 game\2048 game\bin\publish\2048 game.runtimeconfig.json
+D:\VS 2022_codes\2048 game\2048 game\bin\publish\2048 game.pdb

@@ -118,14 +118,6 @@ namespace _2048_game
             }
         }
 
-        /*private async void myDelay()
-        {
-            await Task.Delay(500);
-            randomNumberLogic.setRandomValueAfterMove(gameBoard);
-            this.setBoardToView();
-            this.ScoreText.Text = "Score: " + GamePoints.getPoints().ToString();
-        }*/
-
         private void restartGame()
         {
             GamePoints.resetPoints();
@@ -154,7 +146,7 @@ namespace _2048_game
                         break;
 
                     default:
-                        break;
+                        return;
                 }
 
                 userInput = false;
@@ -167,7 +159,7 @@ namespace _2048_game
                     this.HighScoreText.Text = "HightScore: " + GamePoints.getPoints().ToString();
                 }
 
-                await Task.Delay(200);
+                await Task.Delay(350);
                 randomNumberLogic.setRandomValueAfterMove(gameBoard);
                 this.setBoardToView();
                 userInput = true;

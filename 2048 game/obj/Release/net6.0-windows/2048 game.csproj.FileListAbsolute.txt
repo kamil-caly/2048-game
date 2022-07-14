@@ -1,0 +1,25 @@
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.exe
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.deps.json
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.runtimeconfig.json
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.dll
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.pdb
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.csproj.AssemblyReference.cache
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\MainWindow.g.cs
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\App.g.cs
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game_MarkupCompile.cache
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game_MarkupCompile.lref
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\MainWindow.baml
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.g.resources
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.AssemblyInfoInputs.cache
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.AssemblyInfo.cs
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.csproj.CoreCompileInputs.cache
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.dll
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\refint\2048 game.dll
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.pdb
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.genruntimeconfig.cache
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\ref\2048 game.dll
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.dll.manifest
+D:\VS 2022_codes\2048 game\2048 game\bin\Release\net6.0-windows\2048 game.application
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.dll.manifest
+D:\VS 2022_codes\2048 game\2048 game\obj\Release\net6.0-windows\2048 game.application
