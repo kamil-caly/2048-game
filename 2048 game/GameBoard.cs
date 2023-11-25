@@ -66,5 +66,36 @@ namespace _2048_game
         {
             return getFieldValue(r, c) == 0 ? true : false;
         }
+
+        public GameBoard Copy()
+        {
+            GameBoard copyGameBoard = new GameBoard();
+
+            for (int r = 0; r < rows; r++)
+            {
+                for (int c = 0; c < columns; c++)
+                {
+                    copyGameBoard.setFieldValue(r, c, this.board[r, c]);
+                }
+            }
+
+            return copyGameBoard;
+        }
+
+        public bool Compare(GameBoard otherGameBoard)
+        {
+            for (int r = 0; r < rows; r++)
+            {
+                for (int c = 0; c < columns; c++)
+                {
+                    if (otherGameBoard.getFieldValue(r, c) != this.getFieldValue(r, c))
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
     }
 }

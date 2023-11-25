@@ -130,19 +130,21 @@ namespace _2048_game
         {
             if(userInput)
             {
+                bool boardChanged = false;
+
                 switch (e.Key)
                 {
                     case Key.D:
-                        keyLogic.MoveLogic('d', gameBoard);
+                        boardChanged = keyLogic.MoveLogic('d', gameBoard);
                         break;
                     case Key.A:
-                        keyLogic.MoveLogic('a', gameBoard);
+                        boardChanged = keyLogic.MoveLogic('a', gameBoard);
                         break;
                     case Key.S:
-                        keyLogic.MoveLogic('s', gameBoard); ;
+                        boardChanged = keyLogic.MoveLogic('s', gameBoard); ;
                         break;
                     case Key.W:
-                        keyLogic.MoveLogic('w', gameBoard);
+                        boardChanged = keyLogic.MoveLogic('w', gameBoard);
                         break;
 
                     default:
@@ -160,7 +162,12 @@ namespace _2048_game
                 }
 
                 await Task.Delay(350);
-                randomNumberLogic.setRandomValueAfterMove(gameBoard);
+
+                if (boardChanged)
+                {
+                    randomNumberLogic.setRandomValueAfterMove(gameBoard);
+                }
+
                 this.setBoardToView();
                 userInput = true;
             }

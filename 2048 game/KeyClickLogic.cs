@@ -8,11 +8,20 @@ namespace _2048_game
 {
     public class KeyClickLogic
     {
-        public void MoveLogic(char key, GameBoard gameBoard)
+        public bool MoveLogic(char key, GameBoard gameBoard)
         {
+            GameBoard prevGameBoard = gameBoard.Copy();
+
             this.shiftLogic(key, gameBoard);
             this.mergeLogic(key, gameBoard);
             this.shiftLogic(key, gameBoard);
+
+            if (gameBoard.Compare(prevGameBoard))
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public void shiftLogic(char key, GameBoard gameBoard)
